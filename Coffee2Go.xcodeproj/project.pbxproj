@@ -17,6 +17,7 @@
 		C483C9F7284548220004026E /* Coffee2GoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483C9F6284548220004026E /* Coffee2GoUITests.swift */; };
 		C483C9F9284548220004026E /* Coffee2GoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483C9F8284548220004026E /* Coffee2GoUITestsLaunchTests.swift */; };
 		C483CA0728454AC40004026E /* OrdersTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483CA0628454AC40004026E /* OrdersTableVC.swift */; };
+		C483CA0A28455ED80004026E /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483CA0928455ED80004026E /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C483C9F6284548220004026E /* Coffee2GoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee2GoUITests.swift; sourceTree = "<group>"; };
 		C483C9F8284548220004026E /* Coffee2GoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee2GoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C483CA0628454AC40004026E /* OrdersTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableVC.swift; sourceTree = "<group>"; };
+		C483CA0928455ED80004026E /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		C483C9D4284548210004026E /* Coffee2Go */ = {
 			isa = PBXGroup;
 			children = (
+				C483CA0828455EC00004026E /* Services */,
 				C483CA05284549C00004026E /* Controllers */,
 				C483C9D5284548210004026E /* AppDelegate.swift */,
 				C483C9D7284548210004026E /* SceneDelegate.swift */,
@@ -132,10 +135,18 @@
 		C483CA05284549C00004026E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C483C9D9284548210004026E /* AddOrderVC.swift */,
 				C483CA0628454AC40004026E /* OrdersTableVC.swift */,
+				C483C9D9284548210004026E /* AddOrderVC.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C483CA0828455EC00004026E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C483CA0928455ED80004026E /* WebService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +283,7 @@
 				C483C9DA284548210004026E /* AddOrderVC.swift in Sources */,
 				C483C9D6284548210004026E /* AppDelegate.swift in Sources */,
 				C483CA0728454AC40004026E /* OrdersTableVC.swift in Sources */,
+				C483CA0A28455ED80004026E /* WebService.swift in Sources */,
 				C483C9D8284548210004026E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

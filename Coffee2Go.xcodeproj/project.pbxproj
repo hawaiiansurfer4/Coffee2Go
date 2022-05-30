@@ -19,6 +19,7 @@
 		C483CA0728454AC40004026E /* OrdersTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483CA0628454AC40004026E /* OrdersTableVC.swift */; };
 		C483CA0A28455ED80004026E /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483CA0928455ED80004026E /* WebService.swift */; };
 		C483CA0D28456AA60004026E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483CA0C28456AA60004026E /* Order.swift */; };
+		C483CA10284582DA0004026E /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483CA0F284582DA0004026E /* OrderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C483CA0628454AC40004026E /* OrdersTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableVC.swift; sourceTree = "<group>"; };
 		C483CA0928455ED80004026E /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		C483CA0C28456AA60004026E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		C483CA0F284582DA0004026E /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		C483C9D4284548210004026E /* Coffee2Go */ = {
 			isa = PBXGroup;
 			children = (
+				C483CA0E284582910004026E /* VIew Models */,
 				C483CA0B28456A930004026E /* Models */,
 				C483CA0828455EC00004026E /* Services */,
 				C483CA05284549C00004026E /* Controllers */,
@@ -158,6 +161,14 @@
 				C483CA0C28456AA60004026E /* Order.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C483CA0E284582910004026E /* VIew Models */ = {
+			isa = PBXGroup;
+			children = (
+				C483CA0F284582DA0004026E /* OrderViewModel.swift */,
+			);
+			path = "VIew Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +307,7 @@
 				C483C9D6284548210004026E /* AppDelegate.swift in Sources */,
 				C483CA0728454AC40004026E /* OrdersTableVC.swift in Sources */,
 				C483CA0A28455ED80004026E /* WebService.swift in Sources */,
+				C483CA10284582DA0004026E /* OrderViewModel.swift in Sources */,
 				C483C9D8284548210004026E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

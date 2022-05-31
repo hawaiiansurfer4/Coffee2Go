@@ -25,7 +25,6 @@ class AddOrderVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     private func setupUI() {
-//        self.navigationController?.navigationBar.
         self.coffeeSizesSegmentedControl = UISegmentedControl(items: self.vm.sizes)
         self.coffeeSizesSegmentedControl.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(self.coffeeSizesSegmentedControl)
@@ -70,6 +69,15 @@ class AddOrderVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         self.vm.email = email
         self.vm.selectedSize = selectedSize
         self.vm.selectedType = self.vm.types[indexPath.row]
+        
+        WebService().load(resource: Order.create(vm: self.vm)) { result in
+            switch result {
+            case .success(let order):
+                print(order)
+            case .failure(let error):
+                print(error)
+            }
+        }
     }
 }
 

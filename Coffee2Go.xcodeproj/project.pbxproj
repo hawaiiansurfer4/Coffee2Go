@@ -20,6 +20,7 @@
 		C483CA0A28455ED80004026E /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483CA0928455ED80004026E /* WebService.swift */; };
 		C483CA0D28456AA60004026E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483CA0C28456AA60004026E /* Order.swift */; };
 		C483CA10284582DA0004026E /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483CA0F284582DA0004026E /* OrderViewModel.swift */; };
+		C483CA12284589DF0004026E /* AddCoffeeOrderVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483CA11284589DF0004026E /* AddCoffeeOrderVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		C483CA0928455ED80004026E /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		C483CA0C28456AA60004026E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		C483CA0F284582DA0004026E /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		C483CA11284589DF0004026E /* AddCoffeeOrderVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				C483CA0F284582DA0004026E /* OrderViewModel.swift */,
+				C483CA11284589DF0004026E /* AddCoffeeOrderVM.swift */,
 			);
 			path = "VIew Models";
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C483CA0D28456AA60004026E /* Order.swift in Sources */,
+				C483CA12284589DF0004026E /* AddCoffeeOrderVM.swift in Sources */,
 				C483C9DA284548210004026E /* AddOrderVC.swift in Sources */,
 				C483C9D6284548210004026E /* AppDelegate.swift in Sources */,
 				C483CA0728454AC40004026E /* OrdersTableVC.swift in Sources */,
